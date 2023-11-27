@@ -1,3 +1,6 @@
+'''
+Crie uma função de fibonacci recursiva, que exiba toda a sequência até o número informado.
+'''
 def fibonacci(numero, ultimo = 1, penultimo = 0, impressao = 1):
     aux = ultimo
     if (numero > 0):
