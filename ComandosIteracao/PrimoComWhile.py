@@ -7,13 +7,13 @@ contador = 2
 primo = True
 
 # processamento
-while(contador < num):
+while (contador < num):
     if (num % contador == 0):
         primo = False
     contador += 1
 
 # retorno
 if (primo == False):
-    print ('Não é Primo!')
+    print('Não é Primo!')
 else:
-    print ('É Primo')
+    print('É Primo')

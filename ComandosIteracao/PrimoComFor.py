@@ -6,12 +6,12 @@ num = int(input('Digite um número inteiro (diferente de 1): '))
 primo = True
 
 # processamento
-for i in range(2,num):
+for i in range(2, num):
     if (num % i == 0):
         primo = False
 
 # retorno
 if (primo == False):
-    print ('Não é Primo!')
+    print('Não é Primo!')
 else:
-    print ('É Primo')
+    print('É Primo')

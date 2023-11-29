@@ -8,7 +8,7 @@ cont = 0
 i = 0
 
 # Calcula
-while(i <= num):
+while (i <= num):
     if (i % 2 == 0):
         print(i, ' ', end='')
         cont += 1

@@ -8,10 +8,10 @@ soma = 0
 contador = 0
 
 # processar
-while(idade != 0):
+while (idade != 0):
     soma += idade
     contador += 1
     idade = int(input('Informe uma idade (0 interrompe): '))
 
 # retornoo
-print ('A média de idade, é: {}'.format(soma/contador))
+print('A média de idade, é: {}'.format(soma/contador))

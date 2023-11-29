@@ -3,7 +3,7 @@ A prefeitura está coletando informações sobre o salário e o número de filho
 leitura de dados é realizada até que seja informado o valor -1 para o salário. Apresenta a média
 de salário da população, a média de filhos e o maior salário.
 '''
-# entrada 
+# entrada
 salario = float(input('Digite o valor do seu salário (-1 interrompe): '))
 filhos = int(input('Quantos filhos você tem: '))
 maior = 0
@@ -12,7 +12,7 @@ soma_fil = 0
 cont = 0
 
 # processamento
-while(salario != -1):
+while (salario != -1):
     if (salario > maior):
         maior = salario
     soma_sal += salario

@@ -4,7 +4,7 @@ valor2 = valor
 resultado = 1
 
 # Calcular o fatorial desse valor
-while(valor > 0):
+while (valor > 0):
     resultado = valor * resultado
     valor = valor - 1
 

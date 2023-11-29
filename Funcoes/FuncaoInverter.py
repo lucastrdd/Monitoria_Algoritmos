@@ -1,4 +1,4 @@
-def inverter (num):
+def inverter(num):
     inv = 0
 
     while (num != 0):
