@@ -1,5 +1,5 @@
 '''
-Implemente um código para criar uma matriz transposta.
+Implemente um código para criar uma matriz transposta, e a imprima.
 '''
 
 

@@ -1,5 +1,5 @@
 '''
-Faça um sistema que cadastre filmes usando um dicionatio, e imprima depois
+Faça um sistema que cadastre filmes usando um dicionario e uma lista, e os imprima depois
 '''
 
 lista = []
