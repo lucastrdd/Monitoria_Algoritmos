@@ -5,24 +5,35 @@
 4. Imprima todas as chaves do dicionário.
 5. Verifique se um determinado país está presente no dicionário.
 '''
-
+# 1
 paises = {"Brasil": "Brasilia", "Argentina": "Buenos Aires", "França": "Paris"}
 
 for pais, capital in paises.items():
     print(f"A Capital do {pais} é {capital}")
 
 print()
+
+# 2
 paises.update({"Espanha": "Madrid"})
 
 for pais, capital in paises.items():
     print(f"A Capital do {pais} é {capital}")
 
 print()
-paises.pop("Argentina")
 
+# 3
+paises.pop("Argentina")
 for pais, capital in paises.items():
     print(f"A Capital do {pais} é {capital}")
 
+
+# 4
+for pais in paises.keys():
+    print(f"{pais}, ", end='')
+
+print()
+
+# 5
 if "Argentina" in paises:
     print("Tem a argentina")
 else:
